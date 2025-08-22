@@ -33,19 +33,27 @@ It focuses on efficient training and inference while preserving segmentation qua
 Create a virtual environment and install dependencies:
 
 Bash
+
 python -m venv venv
+
 source venv/bin/activate   # (Linux/Mac)
+
 venv\Scripts\activate      # (Windows)
 
 pip install -r requirements.txt
+
+
 
 🚀 Usage
 
 Training
 python train.py
 
+
 Run UI for segmentation visualization
+
 python app.py
+
 Open the Gradio link shown in the terminal to interact with the model.
 
 📌 Notes
