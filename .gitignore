@@ -1,0 +1,37 @@
+﻿# === DATASETS / LARGE FILES ===
+archive/
+dataset/
+data/
+*.nii
+*.nii.gz
+
+# === MODEL ARTIFACTS ===
+checkpoints/*
+!checkpoints/best.pth
+!checkpoints/.gitkeep
+
+# === PYTHON CACHES ===
+__pycache__/
+*.py[cod]
+*.pkl
+
+# === NOTEBOOKS ===
+.ipynb_checkpoints/
+
+# === VIRTUAL ENVS ===
+.venv/
+venv/
+env/
+
+# === LOGS / TEMP ===
+*.log
+*.tmp
+
+# === EDITORS / IDE ===
+.vscode/
+.idea/
+
+# === OS FILES ===
+.DS_Store
+Thumbs.db
+desktop.ini
